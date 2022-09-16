@@ -1,70 +1,79 @@
+* {
+  margin: 0;
+  padding: 0%;
+}
+
 nav {
-    height: 70px;
-    width: 100pw;
-    display: grid;
-    place-items: center;
+  height: 70px;
+  width: 100vw;
+  display: grid;
+  place-items: center;
 }
 .inner-nav {
-    width: 55%;
-    height: 100%;
-    justify-content: space-between;
-    align-items: center;
-    display: flex;
+  width: 75%;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo i {
+  margin-right: 20px;
 }
 .list-nav {
-    margin: 0;
-    display: flex;
-    justify-content: space-between;
-
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 30vw;
 }
 .centrer {
-    justify-content: center;
-    align-items: center;
-    color: #1AD1B9;
+  color: #1ad1b9;
 }
 .home-section {
-    height: 80vh;
-    width: 100vw;
-    display: flex;
-    align-items: center;
+  height: 80vh;
+  width: 100vw;
+  text-align: center;
 }
 .home-left {
-    width: 50%;
-   
-   }
+  width: 40%;
+}
 .home-right {
-    width: 50%;
-    height: 100%;
-    display: grid;
-    place-items: center;
-    padding-right: 100px;
-
+  width: 40%;
+}
+.texts {
+  height: 60vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 .divdiv {
-    padding-bottom: 50px;
-    padding-top: 50px;
-    height: 60vh;
-    width: 60vw ;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  height: 60vh;
+  width: 60vw;
 
-    margin: auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 20px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
 }
 .grid-item {
-    width: 200px;
-    height: 150px;
-    padding-left: 30px;
+  width: 200px;
+  height: 150px;
+  padding-left: 30px;
 }
 .color1 {
-    background-color: #1AD1B9;
-    color: white;
+  background-color: #1ad1b9;
+  color: white;
 }
 .color2 {
-    background-color: #3D83DF;
-    color: white;
+  background-color: #3d83df;
+  color: white;
 }
 .color3 {
-    background-color: #1B2734;
-    color: white;
+  background-color: #1b2734;
+  color: white;
 }
